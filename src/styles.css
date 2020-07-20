@@ -5,9 +5,21 @@
 }
 
 body {
+  margin-top: 150px;
+  box-sizing: border-box;
   background: #343a40;
 }
 
-.navbar-brand, .display-4 {
-  font-family: Montserrat;
+.not-signed-up {
+  background-color: #63CD78;
+  min-height: 30em;
+}
+
+a, a:hover {
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 38em;
 }

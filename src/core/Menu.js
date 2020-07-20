@@ -12,10 +12,10 @@ const currentTab = (history, path) => {
 
 const Menu = ({ history }) => (
     <>
-        <nav className="navbar navbar-dark bg-dark text-white">
+        <nav className="navbar navbar-dark fixed-top bg-dark text-white">
             <div className="container">
                 <span className="navbar-brand">
-                        Arbor
+                        Arbor.
                 </span>
 
                 <ul className="nav bg-dark">

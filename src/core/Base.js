@@ -10,25 +10,19 @@ const Base = ({
     <>
         <Menu />
 
+                <img src="logo.png" alt="" className='logo' width='150' height='150'/>
+
+
         <div className='container-fluid'>
             <div className='jumbotron bg-dark text-white text-center'>
-                <h2 className='display-4'>{ title }</h2>
+                <h1 className='display-4'>{ title }</h1>
                 <p className='lead'>{ description }</p>
             </div>
             <div className={className}> {children} </div>
         </div>
 
         <footer className='footer bg-dark mt-auto py-3'>
-            <div className='container-fluid bg-success text-white text-center'>
-                <h4>If you got any questions, feel free to reach out!</h4>
-                <button className='btn btn-warning btn-lg'>Contact Us</button>
-            </div>
-            
-            <div className='container'>
-                <span className='text-muted'>
-                    An amazing MERN Bootcamp
-                </span>
-            </div>
+            <p className="mt-5 mb-3 text-center text-muted">&copy;Arbor.</p>
         </footer>
     </>
 )
