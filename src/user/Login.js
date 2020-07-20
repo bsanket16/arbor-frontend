@@ -10,7 +10,7 @@ const Login = () => {
                 <div className="container">
 
                     <div className="card mt-5 p-0">
-                        <div className="card-bod">
+                        <div className="card-body m-0 p-0">
                         <div className="row no-gutters">
                         <div className="col-4 offset-2 text-center my-auto">
                             <form className="form-signin">
