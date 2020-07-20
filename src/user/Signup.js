@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
-import Base from '../core/Base'
+import React from 'react';
 import { Link } from 'react-router-dom'
+import Menu from '../core/Menu'
 
 const Signup = () => {
 
     const signUpForm = () => {
         return (
             <>
+                <Menu />
+
                 <div className="container">
 
                     <div className="card mt-5 p-0">
@@ -20,10 +22,10 @@ const Signup = () => {
                                 <input type="text" className="form-control" placeholder='Name' required autoFocus/>
 
                                 <label htmlFor="inputEmail" className="sr-only">Email</label>
-                                <input type="email" className="form-control mt-2" placeholder='Email address' required autoFocus/>
+                                <input type="email" className="form-control mt-2" placeholder='Email address' required/>
 
                                 <label htmlFor="inputPassword" className="sr-only">Password</label>
-                                <input type="password" className="form-control mt-2" placeholder='Password' required autoFocus/>
+                                <input type="password" className="form-control mt-2" placeholder='Password' required/>
 
                                 {/* <div className="checkbox mb-2 mt-3 text-left text-muted">
                                     <label>
@@ -52,9 +54,7 @@ const Signup = () => {
     }
 
     return(
-        <Base title='Sign up' description='Page for registration'>
-            {signUpForm()}
-        </Base>
+        signUpForm()
     )
 }
 

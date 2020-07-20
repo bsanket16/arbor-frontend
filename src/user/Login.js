@@ -1,12 +1,14 @@
-import React, { useState } from 'react';
-import Base from '../core/Base'
+import React from 'react';
 import { Link } from 'react-router-dom'
+import Menu from '../core/Menu'
 
 const Login = () => {
 
     const signInForm = () => {
         return (
             <>
+                <Menu />
+
                 <div className="container">
 
                     <div className="card mt-5 p-0">
@@ -19,7 +21,7 @@ const Login = () => {
                                 <input type="email" className="form-control" placeholder='Email address' required autoFocus/>
 
                                 <label htmlFor="inputPassword" className="sr-only">Password</label>
-                                <input type="password" className="form-control mt-2" placeholder='Password' required autoFocus/>
+                                <input type="password" className="form-control mt-2" placeholder='Password' required/>
 
                                 <div className="checkbox mb-2 mt-3 text-left text-muted">
                                     <label>
@@ -48,9 +50,7 @@ const Login = () => {
     }
 
     return(
-        <Base title='Login' description='Page for logging users'>
-            {signInForm()}
-        </Base>
+        signInForm()
     )
 }
 

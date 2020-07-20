@@ -10,7 +10,7 @@ const Base = ({
     <>
         <Menu />
 
-                <img src="logo.png" alt="" className='logo' width='150' height='150'/>
+        <img src="logo.png" alt="" className='logo' width='150' height='150'/>
 
 
         <div className='container-fluid'>
