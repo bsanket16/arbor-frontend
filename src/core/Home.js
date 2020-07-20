@@ -9,7 +9,7 @@ export default function Home() {
     console.log('API IS', API)
 
     return (
-        <Base title='Arbor'>
+        <Base title='Arbor' description='Planting is a treemendous experience'>
             <h1 className='text-white'>Hello Frontend { API }</h1>
         </Base>
     )

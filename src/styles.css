@@ -6,5 +6,8 @@
 
 body {
   background: #343a40;
+}
+
+.navbar-brand, .display-4 {
   font-family: Montserrat;
 }
