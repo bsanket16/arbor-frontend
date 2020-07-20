@@ -13,14 +13,19 @@ const Login = () => {
                     <div className="card mt-5 p-0">
                         <div className="card-body m-0 p-0">
                         <div className="row no-gutters">
-                        <div className="col-4 offset-2 text-center my-auto">
+                        <div className="col-4 offset-2 my-auto">
                             <form className="form-signin">
-                            <h1 className='display-4 mb-5 text-dark'>Login</h1>
-                                <label htmlFor="inputEmail" className="sr-only">Email</label>
-                                <input type="email" className="form-control" placeholder='Email address' required autoFocus/>
-
-                                <label htmlFor="inputPassword" className="sr-only">Password</label>
-                                <input type="password" className="form-control mt-2" placeholder='Password' required/>
+                            <h1 className='display-4 mb-5 text-dark text-center'>Login</h1>
+                            
+                                <div className="form-label-group">
+                                    <input type="email" id="inputEmail" className="form-control" placeholder='Email' required autoFocus/>
+                                    <label htmlFor="inputEmail">Email</label>
+                                </div>
+                                
+                                <div className="form-label-group">
+                                <input type="password" id="inputPassword" className="form-control mt-1" placeholder='Password' required/>
+                                <label htmlFor="inputPassword">Password</label>
+                                </div>
 
                                 <div className="checkbox mb-2 mt-3 text-left text-muted">
                                     <label>
@@ -33,7 +38,6 @@ const Login = () => {
                                 <a href='/'> Login </a>
                                 </button>
                                 
-
                             </form>
                         </div>
 
