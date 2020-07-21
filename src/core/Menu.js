@@ -54,7 +54,7 @@ const Menu = ({ history }) => (
                             Logout
                         </Link>
                     </li>
-                </ul>
+                </ul> 
 
             </div>
         </nav>
