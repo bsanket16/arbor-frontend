@@ -10,7 +10,10 @@ export default function Home() {
     console.log('API IS', API)
 
     return (
-        <Base title='Arbor.' description='Planting is a treemendous experience'>
-        </Base>
+        
+        <>
+            <Base title='Arbor.' description='[ Planting is a Treemendous Experience ]'>
+            </Base>
+        </>
     )
 }
